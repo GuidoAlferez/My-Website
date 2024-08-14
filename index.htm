@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Mi Primera Pagina Web</title>
+    <link rel="preload" href="style.css" as="style">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav id="navbar">
+            <a href="#home" class="header_logo">
+                <p class="nav_title"> Portfo<span>lio.</span></p>
+            </a>
+            <div class="header_links">
+                <a href="#home" class>Home</a>
+                <a href="#aboutMe" class>About Me</a>
+                <a href="#skills" class>Skills</a>
+                <a href="#projects" class>Projects</a>
+                <a href="#contactMe" class>Contact Me</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- //-----------------------------------------------------------------------------------------------------> 
+    <section id="home">
+        <div class="home_text">
+            <p class="text1">Hello, my name is </p>
+            <p class="text2">Guido Alferez</p>
+            <p class="text3">And I'm a <span class="text4">Full Stack Developer</span></p>
+            <a class="button" href="">Get Resume</a>
+        </div>
+        <div class="contenedor_item sombra">
+            <img class="img_guido" src="./assets/guidoa.jpg" alt="img_guidoalferez">
+
+        </div>
+    </section>
+
+    <!-- //-----------------------------------------------------------------------------------------------------> 
+
+    <section id="aboutMe">
+        <h2 class="aboutme_text">About Me</h2>
+        <p class="aboutme_text2">who i am</p>
+        <div class="text_content">
+            <p>Hello, my name is Guido and I'm a <span class="span1">Full Stack Developer</span> </br></br>
+                I started in the world of development when I began courses of Educacion IT and Guayerd Academy two years ago and since then I am excited and motivated to know every day a little more, to have every day more tools. </br>I have had real work experience making websites as a Freelancer and experience in teams doing courses projects, which I do to deepen my knowledge. I consider that as well as developing; communicating, listening and working in teams are skills that are trained daily and I love that.</br> I am very happy to be part of the IT world and I look forward to collaborate with everything I learned this time and keep learning every day.</p>
+        </div>
+        <a class="button" href="">Get Resume</a>
+    </section>
+
+    <section id="skills">
+        <div class="skills_lista">
+            <a href="">Skills</a>
+            <a href="">Experience</a>
+            <a href="">Education</a>
+        </div>
+
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h5 class="parrafo">Front-end</h2>
+                <div class="img1">
+                    <img src="./assets/html_logo.png" class="d-block w-100" alt="...">
+                    <img src="./assets/css_logo.png" class="d-block w-100" alt="...">
+                    <img src="./assets/js_logo.png" class="d-block w-100" alt="...">
+                    <img src="./assets/angular_logo.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <div class="carousel-item">
+                  <h5 class="parrafo">Back-end</h2>
+                <div  class="img2">
+                    <img src="./assets/mysql_logo.png" class="d-block w-100" alt="...">
+                    <img src="./assets/node_logo.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <div class="carousel-item">
+                  <h5 class="parrafo">Other-Skills</h2>
+                <div class="img3">
+                    <img src="./assets/git_logo.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden"></span>
+            </button>
+        </div>
+
+
+
+    </section>
+
+    <section id="projects">
+        <h2 class="projects">Projects</h3>
+    </section>
+
+    <section id="Contact Me">
+        <h2 class="contactme_1">Contact Me</h2>
+        <span class="contactme_2">Get in touch</span>
+        <form action="">
+            <fieldset class="form">
+                <div class="form5">
+                    <div class="form1">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00bfd8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                        </svg>
+                        <div class="form_text1">
+                            <h3 class="form_text1">Call Me</h3>
+                            <a href="tel:+5491151010843" class="a_text1">+54 9 11 51010843</a>
+                        </div>
+                    </div>
+                    <div class="form2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00bfd8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
+                            <path d="M3 7l9 6l9 -6" />
+                          </svg>
+                        <div>
+                            <h3>Email</h3>
+                            <a href="mailto:alferezguido@outlook.com" class="a_text1">alferezguido@outlook.com</a>
+                        </div>
+                    </div>
+                    <div class="form3">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="44" height="44"     viewBox="0 0 24 24" stroke-width="1.5" stroke="#00bfd8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                            <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                          </svg>
+                        <div>
+                            <h3>Location</h3>
+                            <a href="https://goo.gl/maps/MVyJC2NtCRkNky5X8" target="__blank" class="a_text1">CABA - Argentina</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form4">
+                    <div>
+                        <label for="name"></label>
+                        <input type="text"placeholder="Name" class="textarea3">
+                    </div>
+                    <div>
+                        <label for=""></label>
+                        <input type="email" placeholder="Email" class="textarea2">
+                    </div>
+                    <div>
+                        <label for=""></label>
+                        <textarea class="textarea1" id="" cols="60" rows="10" placeholder="Message"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" value="send" class="button1">Send Message</button>
+                    </div>
+                </div>
+            </fieldset>
+
+        </form>
+    <footer class="footer">
+        <p>© 2023 Alferez Guido - All Rights Reserved
+        </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
